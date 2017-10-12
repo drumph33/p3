@@ -1,2 +1,2 @@
 # Pasta Cooking Guide
-<p3.rektpwn.club>
+<http://p3.rektpwn.club>
