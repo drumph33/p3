@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PastaController@index');
+Route::post('/directions', 'PastaController@results');
