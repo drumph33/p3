@@ -9,11 +9,21 @@ class PastaController extends Controller
     //
     public function index()
     {
-        return 'Display the form';
+        return view('index');
     }
     public function results()
     {
-        return 'Display the cooking instructions';
+        $datas = [
+            'pasta' => 'rigatoni',
+            'water' => 5,
+            'cook' => 'al dente',
+            'yield' => 9,
+            'quantity' => 18,
+            'time' => 12
+        ];
+        return view('directions')->with([
+            'data' => $datas
+        ]);
     }
-    
+
 }

@@ -12,4 +12,10 @@
 */
 
 Route::get('/', 'PastaController@index');
-Route::post('/directions', 'PastaController@results');
+Route::get('/directions', 'PastaController@results');
+Route::get('/env', function () {
+    dump(config('app.name'));
+    dump(config('app.env'));
+    dump(config('app.debug'));
+    dump(config('app.url'));
+});

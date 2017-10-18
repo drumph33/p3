@@ -1,0 +1,16 @@
+legend{
+    font-size: 17px;
+}
+.img-responsive{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+div .img-group{
+    margin: 0 auto;
+    width: fit-content;
+}
+h5{
+    font-size: 23px;
+    text-align: center;
+}
