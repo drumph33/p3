@@ -33,7 +33,7 @@
                     <div class='panel-heading'><h2 class='text-center'>Directions</h2></div>
                     <div class='panel-body'>
                     <h3 class='text-justify'>To cook {{ $data['quantity'] }} ounces of {{ $data['pasta'] }} with {{ $data['cook'] }} consistency,
-                    you will first need to bring {{$data['water']}} quarts of very salty water to a hard boil.
+                    you will first need to bring {{ $data['water'] }} quarts of very salty water to a hard boil.
                     Next, add in the full amount of pasta while occasionally stirring for the first 2 minutes.
                     Remember to keep the heat high so that the water stays at a hard boil the entire time. The desired
                     cooking time to achieve {{ $data['cook'] }} {{ $data['pasta'] }} will be {{ $data['time'] }} minutes. After the pasta has

@@ -16,7 +16,7 @@
         <div class='panel panel-info'>
             <div class="panel-heading"></div>
             <div class="panel-body">
-                <form>
+                <form method='GET' action='/directions'>
                     <!-- Drop down menu to select the type of pasta the user is cooking -->
                     <div class='form-group'>
                         <label for='pasta'>Select which type of pasta you want to cook</label>
@@ -57,4 +57,13 @@
             </div>
         </div>
     </div>
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
 @endsection
