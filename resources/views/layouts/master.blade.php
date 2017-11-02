@@ -18,7 +18,7 @@
 		@yield('content')
 	</section>
 
-	<footer>
+	<footer class='container'>
 		&copy; {{ date('Y') }} Dylan Rumph
 	</footer>
 
