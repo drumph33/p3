@@ -81,7 +81,8 @@ class PastaController extends Controller
 
         if ($cook == 'soft'){
                 $time = $softTime;
-        }else{
+        }
+        else{
                 $time = $alDenteTime;
         }
         //Process the quantity from the numerical text input
@@ -89,15 +90,20 @@ class PastaController extends Controller
         //Sets the amount of water needed based on the amount of pasta to be cooked
         if ($quantity <= 4){
             $water = 3;
-        }elseif ($quantity <= 12){
+        }
+        elseif ($quantity <= 12){
             $water = 4;
-        }elseif ($quantity <= 18){
+        }
+        elseif ($quantity <= 18){
             $water = 5;
-        }elseif ($quantity <= 24){
+        }
+        elseif ($quantity <= 24){
             $water = 6;
-        }elseif ($quantity <= 28){
+        }
+        elseif ($quantity <= 28){
             $water = 7;
-        }else{
+        }
+        else{
             $water = 8;
         }
         //Calculates how many servings will be made by using the scalar set in the pasta list and the input quantity. Rounds to one decimal place
