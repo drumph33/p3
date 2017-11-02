@@ -22,7 +22,7 @@
                         <img src='/images/pot.png' alt='pot' height='80' width='80'>
                         <img src='/images/pan.png' alt='pan' height='80' width='80'>
                         <img src='/images/sauce.png' alt='sauce' height='80' width='100'>
-                        <img src="/images/<?=$data['pasta']?>.jpg" alt='pasta' height='80' width='80'>
+                        <img src="/images/{{ $data['pasta'] }}.jpg" alt='pasta' height='80' width='80'>
                     </div>
                     <h5>{{ $data['water'] }} quarts of water, lots of salt, a large pot, a large sauce pan, a sauce of your choosing,
                          and {{ $data['quantity'] }} oz. of dry {{ $data['pasta'] }}</h5>
@@ -44,6 +44,6 @@
                 </div>
             </div>
         </div>
-        <img class='img-responsive' src="/images/cook<?=$data['pasta']?>.jpg" alt='cooked pasta'>
+        <img class='img-responsive' src="/images/cook{{ $data['pasta'] }}.jpg" alt='cooked pasta'>
     </div>
 @endsection

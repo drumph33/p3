@@ -21,7 +21,7 @@
                     <div class='form-group'>
                         <label for='pasta'>Select which type of pasta you want to cook</label>
                         <select name='pasta' id='pasta'>
-                            <option value='choose'>Choose a pasta...</option>
+                            <option value=''>Choose a pasta...</option>
                             <option value='penne'>Penne</option>
                             <option value='rigatoni'>Rigatoni</option>
                             <option value='rotini'>Rotini</option>
